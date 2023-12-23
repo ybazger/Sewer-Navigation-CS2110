@@ -4,7 +4,7 @@ However, there relevant algorithm code sets are available in this repository.
 
 Within the broader omitted sections of the code, it would generate a graphical representation of "McDiver" in a sewer system as they search for a ring, and then a counter would show how many steps are left for McDiver to safely exit the sewer.
 The task is to collect as many coins as possible while being mindful of the steps left.
-The following GIF shows how it would look like when the codebase is run:
+The following GIF shows how it would look like when the codebase is run (_it takes some time to load as the GIF file size is approximately 20 MBs_):
 
 ![Alt text](https://github.com/ybazger/Sewer-Navigation-CS2110/blob/main/Scram%20phase.gif?raw=true)
 
