@@ -6,6 +6,6 @@ Within the broader omitted sections of the code, it would generate a graphical r
 The task is to collect as many coins as possible while being mindful of the steps left.
 The following GIF shows how it would look like when the codebase is run (_it takes some time to load as the GIF file size is approximately 20 MBs_):
 
-![Alt text](https://github.com/ybazger/Sewer-Navigation-CS2110/blob/main/Scram%20phase.gif?raw=true)
+![A GIF showing McDiver GUI collecting coins](https://github.com/ybazger/Sewer-Navigation-CS2110/blob/main/Scram%20phase.gif?raw=true)
 
 Further descriptions of every major algorithm implemented can be found within the code itself.
