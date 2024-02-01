@@ -90,12 +90,12 @@ public class McDiver implements SewerDiver {
      *              McDiver's current location, the exit location, and the number of steps remaining to reach the exit.
      */
     private void coinThief(ScramState state) {
-    ShortestPaths<Node, Edge> scramPath = new ShortestPaths<>(new Maze((Set<Node>) state.allNodes()));
-    scramPath.singleSourceDistances(state.currentNode());
-    ShortestPaths<Node, Edge> exitPath = new ShortestPaths<>(new Maze((Set<Node>) state.allNodes()));
-    PQueue<Node> weightedCoinNodes = new SlowPQueue<>();
-    Collection<Node> allNodes = state.allNodes();
-    Collection<Node> visitedNodes = new HashSet<>();
+        ShortestPaths<Node, Edge> scramPath = new ShortestPaths<>(new Maze((Set<Node>) state.allNodes()));
+        scramPath.singleSourceDistances(state.currentNode());
+        ShortestPaths<Node, Edge> exitPath = new ShortestPaths<>(new Maze((Set<Node>) state.allNodes()));
+        PQueue<Node> weightedCoinNodes = new SlowPQueue<>();
+        Collection<Node> allNodes = state.allNodes();
+        Collection<Node> visitedNodes = new HashSet<>();
 
 
     for (Node n : allNodes) {
